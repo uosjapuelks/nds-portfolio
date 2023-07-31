@@ -1,0 +1,84 @@
+
+/* Typography */
+
+.heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5625rem; /* 178.571% */
+    letter-spacing: 0.02188rem;
+}
+
+.body {
+    color: #000;
+    font-family: 'Raleway', serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    letter-spacing: 0.02188rem;
+}
+
+.profileName {
+    color: #0B0909;
+    font-family: Raleway, serif;
+    font-size: 1.77625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.22031rem; /* 125% */
+}
+
+.role {
+    color: rgba(11, 9, 9, 0.50);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 250% */
+}
+
+.contactMeans {
+    color: rgba(26, 16, 3, 0.50);
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0rem; /* 0% */
+}
+
+.contactDeet {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
+}
+
+.themedButton {
+    color: #F2F7FC;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 166.667% */
+}
+
+.download {
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colourLight {
+    color: #A4508B;
+}
+.colourDark {
+    color: #400B83;
+}
+.colourBright {
+    color: #F2F5F9;
+}
