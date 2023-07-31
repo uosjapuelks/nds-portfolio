@@ -1,0 +1,12 @@
+
+.navbar-container {
+    width: 31.4375rem;
+    height: 6.25rem;
+    marginRight:0;
+    marginLeft: auto;
+    borderRadius: 1.25rem;
+    background: gainsboro;
+    display: flex;
+    justifyContent: space-evenly;
+    alignItems: center;
+}

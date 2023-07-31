@@ -1,12 +1,18 @@
 import logo from "../../logo.svg";
 import {LayoutDesktop} from "../../components/layout";
+import {ContentCard} from "../../components/layout/info";
+import {NavCard} from "../../components/layout/navcard";
 
-const LandingPage = (props) => {
+
+const Layout = (props) => {
     return (
         <LayoutDesktop>
-            <div></div>
+            <div>
+                <NavCard/>
+                {props.children}
+            </div>
         </LayoutDesktop>
-    )
+)
 };
 
-export { LandingPage };
+export { Layout };

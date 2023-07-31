@@ -1,17 +1,18 @@
 import logo from '../logo.svg';
 import '../styles/App.css';
-import { LandingPage } from '../pages';
+import { Layout } from '../pages';
 import { Header } from "../components/layout/header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
+import {ContentCard} from "../components/layout/info";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={"/"}>
-          <Route index element={<LandingPage />} />
-        </Route>
+          <Route path={"/"} exact element={<Layout><ContentCard title={"About Me"}/></Layout>} />
+          <Route path={"/resume"} exact element={<Layout><ContentCard title={"Resume"}/></Layout>} />
+          <Route path={"/projects"} exact element={<Layout><ContentCard title={"Project"}/></Layout>} />
       </Routes>
     </BrowserRouter>
   );

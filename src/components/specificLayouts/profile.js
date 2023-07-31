@@ -35,7 +35,11 @@ export const ContactDetails = (props) => {
 export const DownldRes = (props) => {
     return (
         <div className={fonts.download}>
-            <Themed className={fonts.themedButton}> <DownloadLogo/>Download Resume</Themed>
+            <Themed className={fonts.themedButton}
+                    href="https://uosjapuelks.github.io/anderson/files/Resume_Anderson_Leong.pdf"
+                    style={{padding: "0.625rem 1.25rem", display: "inline-flex", }}
+            > <DownloadLogo/>Download Resume</Themed>
         </div>
     )
 }
+
