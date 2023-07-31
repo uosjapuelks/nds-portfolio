@@ -12,7 +12,7 @@ function App() {
       <Routes>
           <Route path={"/"} exact element={<Layout><ContentCard title={"About Me"}/></Layout>} />
           <Route path={"/resume"} exact element={<Layout><ContentCard title={"Resume"}/></Layout>} />
-          <Route path={"/projects"} exact element={<Layout><ContentCard title={"Project"}/></Layout>} />
+          <Route path={"/projects"} exact element={<Layout><ContentCard title={"Projects"}/></Layout>} />
       </Routes>
     </BrowserRouter>
   );

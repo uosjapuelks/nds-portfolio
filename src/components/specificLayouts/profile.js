@@ -1,5 +1,5 @@
 import fonts from "../../styles/font.module.css";
-import {Themed} from "../common/clickable";
+import {DownRes} from "../common/clickable";
 import {DownloadLogo} from "../common/icons";
 
 export const ContactDetails = (props) => {
@@ -35,10 +35,10 @@ export const ContactDetails = (props) => {
 export const DownldRes = (props) => {
     return (
         <div className={fonts.download}>
-            <Themed className={fonts.themedButton}
+            <DownRes className={fonts.themedButton}
                     href="https://uosjapuelks.github.io/anderson/files/Resume_Anderson_Leong.pdf"
                     style={{padding: "0.625rem 1.25rem", display: "inline-flex", }}
-            > <DownloadLogo/>Download Resume</Themed>
+            > <DownloadLogo/>Download Resume</DownRes>
         </div>
     )
 }
