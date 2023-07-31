@@ -2,9 +2,6 @@ import {Maincard, Themed} from "../common/clickable";
 import fonts from "../../styles/font.module.css";
 import {MainLine} from "../common/icons";
 
-
-
-
 export const ContentCard = (props) => {
     return (
         <Maincard>

@@ -25,7 +25,7 @@ export const NavCard = () => {
                 justifyContent: "space-evenly",
                 alignItems: "center",
             }}>
-                <NavLink to={"/"} className={fonts.navSelection} style={({ isActive }) => {
+                <NavLink to={"/"} exact className={fonts.navSelection} style={({ isActive }) => {
                     setToggle(isActive)
                     return (
                         {
