@@ -7,8 +7,7 @@ export const LayoutDesktop = (props) => {
     return (
         <div style={{
             padding: "0 6.25rem 0 6.25rem",
-            background: "#F2F5F9",
-            height: "100vh",
+            height: "auto",
             minWidth: "64rem",
             minHeight: "50rem",
         }}>

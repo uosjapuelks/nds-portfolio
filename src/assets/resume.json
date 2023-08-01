@@ -1,0 +1,12 @@
+{
+  "bachelor" : {
+    "university" : "National University of Singapore",
+    "degree" : "Bachelor of Engineering",
+    "field" : "Computer Engineering",
+    "date" : "Aug 2020 - Aug 2024",
+    "misc" : "ASEAN Merit Scholarship Awardee"
+  },
+  "experience" : [
+    {"Work" : "NXP Semiconductors", "role" : "", "date" :  "May 2022 - Dec 2022", "skills" :  "IronPython, Python, Machine Learning, TensorFlow"}
+  ]
+}

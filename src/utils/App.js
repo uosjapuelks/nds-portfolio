@@ -1,5 +1,5 @@
-import logo from '../logo.svg';
 import '../styles/App.css';
+import '../styles/minicard.css'
 import { Layout } from '../pages';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';

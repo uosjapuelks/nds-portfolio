@@ -1,0 +1,74 @@
+
+.DeepSat {
+    border-radius: 0.5rem;
+    background: #DBBFFF;
+}
+
+.Sat {
+    border-radius: 0.5rem;
+    background: #EED9FF;
+}
+.Light {
+    border-radius: 0.5rem;
+    background: #FABFFF;
+}
+.LightSat {
+    border-radius: 0.5rem;
+    background: #E7E5FF;
+}
+.Mid {
+    border-radius: 0.5rem;
+    background: #D9E8FF;
+}
+.Alt {
+    border-radius: 0.5rem;
+    background: #F2F7FC;
+}
+
+.portCard:hover {
+     cursor: pointer;
+}
+
+.shortPic {
+    width: 20.875rem;
+    /*height: 6.25rem;*/
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    border-radius: 0.5rem;
+    /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+}
+
+.longPic {
+     width: 20.875rem;
+     /*height: 9.375rem;*/
+     position: absolute;
+     left: 0.5rem;
+     top: 0.5rem;
+     border-radius: 0.5rem;
+     /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+ }
+
+.portfolio-click {
+    height: auto;
+    position: relative;
+    object-fit: cover;
+}
+
+.portfolio-role {
+    color: rgba(26, 16, 3, 0.50);
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 160% */
+}
+
+.portfolio-name {
+    color: #1A1003;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 100% */
+}

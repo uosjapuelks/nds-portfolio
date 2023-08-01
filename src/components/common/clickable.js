@@ -37,8 +37,9 @@ const DownRes = styled.a`
 const Maincard = styled.div`
   margin: .4rem auto auto 2%;
   width: auto;
-  height: 80vh;
+  height: 79vh;
   min-height: 44.7rem;
+  min-width: 45rem;
   flex-shrink: 0;
   border-radius: 1.25rem;
   background: #FFF;

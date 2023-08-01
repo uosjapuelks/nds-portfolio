@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Anderson Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,19 +39,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Modified Section
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Documentation while creating the site
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Public
 
-### Code Splitting
+favicon.ico can be found here and is where tab logo is located.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Src
 
-### Analyzing the Bundle Size
+The Codebase is Split into:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Components
+- Images
+- Pages
+- Styles
+- Utils
+- tests
+
+#### Components
+
+##### Common
+
+
+
 
 ### Making a Progressive Web App
 

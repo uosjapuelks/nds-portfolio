@@ -11,7 +11,8 @@ export const NavCard = () => {
     const [toggle2, setToggle2] = useState(false);
     return (
         <div style={{
-            width: "31.4375rem",
+            // width: "31.4375rem",
+            width: "25rem",
             height: "6.25rem",
             margin: "0 0 1rem auto",
             borderRadius: "1.25rem",
@@ -71,6 +72,7 @@ export const NavCard = () => {
                         });
                 }}> <><WorkLogo active={toggle2}/>
                     Portfolio</> </NavLink>
+
             </nav>
         </div>
     )
