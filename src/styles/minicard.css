@@ -29,6 +29,10 @@
      cursor: pointer;
 }
 
+.portCard {
+    text-decoration: none;
+}
+
 .shortPic {
     width: 20.875rem;
     /*height: 6.25rem;*/

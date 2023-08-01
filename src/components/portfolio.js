@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/minicard.css";
 
-//TODO: Portfolio component
+//TODO: Portfolio component details
 export const DynamicCard = (props) => {
     return (
         <a href={props.href} className="portCard">

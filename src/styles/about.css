@@ -1,0 +1,19 @@
+.about-body {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%; /* 187.5% */
+    /*line-height: 1.875rem; !* 187.5% *!*/
+}
+.about-sectioning {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 125% */
+    letter-spacing: 0.05rem;
+    margin-top: 2rem;
+}
