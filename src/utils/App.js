@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import {ContentCard} from "../components/layout/info";
 import {About} from "../pages/about";
 import {Resume} from "../pages/resume";
-import {Projects} from "../pages/projects";
+import {Portfolio} from "../pages/portfolio";
 
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
               <About/></ContentCard></Layout>} />
           <Route path={"/resume"} exact element={<Layout><ContentCard title={"Resume"}>
               <Resume/></ContentCard></Layout>} />
-          <Route path={"/projects"} exact element={<Layout><ContentCard title={"Projects"}>
-              <Projects/></ContentCard></Layout>} />
+          <Route path={"/projects"} exact element={<Layout><ContentCard title={"Portfolio"}>
+              <Portfolio/></ContentCard></Layout>} />
       </Routes>
     </BrowserRouter>
   );

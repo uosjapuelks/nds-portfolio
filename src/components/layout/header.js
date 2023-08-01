@@ -38,7 +38,7 @@ export const Header = (props) => {
                     fontWeight: "bold",
                     fontSize: 40,
                 }}>
-                tupendous!
+                ir
             </div>
         </div>
     )

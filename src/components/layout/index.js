@@ -15,7 +15,7 @@ export const LayoutDesktop = (props) => {
             <Header/>
             <div style={{display:"flex"}}>
                 <Profile/>
-                <div style={{width:"100%"}}>
+                <div style={{marginTop:"-7rem", width:"100%"}}>
                     {props.children}
                 </div>
             </div>

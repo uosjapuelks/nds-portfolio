@@ -13,8 +13,7 @@ export const NavCard = () => {
         <div style={{
             width: "31.4375rem",
             height: "6.25rem",
-            marginRight:"0",
-            marginLeft: "auto",
+            margin: "0 0 1rem auto",
             borderRadius: "1.25rem",
             background: "#fafbfd",
             boxShadow: "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
@@ -71,7 +70,7 @@ export const NavCard = () => {
                             }
                         });
                 }}> <><WorkLogo active={toggle2}/>
-                    Projects</> </NavLink>
+                    Portfolio</> </NavLink>
             </nav>
         </div>
     )

@@ -26,7 +26,7 @@ export const ProfilCard = (props) => {
     return (
         <div style={{
             width: "18rem",
-            height: "65vh",
+            height: "70vh",
             minHeight: "38.5rem",
             flexShrink: "0",
             borderRadius: "1.25rem",
