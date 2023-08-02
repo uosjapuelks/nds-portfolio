@@ -1,11 +1,11 @@
 {
   "introlist1" : [
-    {"project" :  "Gesture Controlled Laser Tag", "href" : "/projects/capstone", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
-    {"project" :  "FPGA Mini Project", "href" : "/projects/minifpga", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
+    {"project" :  "Gesture Controlled Laser Tag", "href" : "/nds-portfolio/#/projects/capstone", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
+    {"project" :  "FPGA Mini Project", "href" : "/nds-portfolio/#/projects/minifpga", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
   ],
   "introlist2" : [
-    {"project" :  "CLI Application", "href" : "/projects/fridget", "src" :  "FridgetIntro.jpg", "color" :  "Light", "role" :  "Software Engineer"},
-    {"project" :  "SelfDriving / Remote Controlled Mini-Car", "href" : "/projects/rtoscar", "src" :  "2271Intro.png", "color" :  "Sat", "role" :  "Real-Time Operating Systems"}
+    {"project" :  "CLI Application", "href" : "/nds-portfolio/#/projects/fridget", "src" :  "FridgetIntro.jpg", "color" :  "Light", "role" :  "Software Engineer"},
+    {"project" :  "SelfDriving / Remote Controlled Mini-Car", "href" : "/nds-portfolio/#/projects/rtoscar", "src" :  "2271Intro.png", "color" :  "Sat", "role" :  "Real-Time Operating Systems"}
   ],
   "cg4002" : {
     "shortenedName" : "Gesture Laser Tag",
@@ -30,6 +30,18 @@
     "name" : "A CLI Application",
     "image" : "Fridget/fridgetSamplePic.png",
     "git" : "https://github.com/uosjapuelks/tp",
+    "additionalLink" : "",
+    "additionalMsg" : "",
+    "site" : "https://uosjapuelks.github.io/tp/",
+    "sample" : "https://github.com/AY2122S1-CS2113T-W12-4/tp/releases/download/v2.1/Fridget.jar",
+    "UG" : "https://uosjapuelks.github.io/tp/UserGuide.html",
+    "DG" : "https://uosjapuelks.github.io/tp/DeveloperGuide.html"
+  },
+  "fridget" : {
+    "shortenedName" : "Digital Design Mini Project",
+    "name" : "FPGA Design Project: Sight and Sound Entertainment System\n",
+    "image" : "/covers/BoardIntro.jpg",
+    "git" : "https://github.com/uosjapuelks/digital-design",
     "additionalLink" : "",
     "additionalMsg" : "",
     "site" : "https://uosjapuelks.github.io/tp/",

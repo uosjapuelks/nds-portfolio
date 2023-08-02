@@ -12,8 +12,7 @@ export const Rtoscar = (props) => {
                 {project.youtube ? <YoutubeEmbed embedId={project.youtube}/> : null}
                 <br/><br/><DownRes className="gitlink"
                    style={{padding: "0.625rem 1.25rem"}}
-                   href={project.git} target="_blank"
-                   style={{textDecoration:"none"}}>
+                   href={project.git} target="_blank">
                     Click to visit the Github Repo</DownRes>
                 <br/><br/><br/>
                 <div className="res-role">{project.name}</div>

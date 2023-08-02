@@ -1,5 +1,4 @@
 import {ContentCard} from "../../components/layout/info";
-import {YoutubeEmbed} from "../../utils/video";
 import data from "../../assets/portfolio.json";
 import {CheckReport, VisitGit} from "../../components/common/clickable";
 
