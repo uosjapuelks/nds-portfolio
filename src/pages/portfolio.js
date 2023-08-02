@@ -1,13 +1,12 @@
 import {DynamicCard} from "../components/portfolio";
-import ee2026 from "../images/portfolio/covers/BoardIntro.jpg";
-import cg2271 from "../images/portfolio/covers/2271Intro.png";
-import cg4002 from "../images/portfolio/covers/CG4002Group.png";
-import fridget from "../images/portfolio/covers/FridgetIntro.jpg";
 import portfoliodata from "../assets/portfolio.json";
+import {Outlet} from "react-router-dom";
 
 //TODO: Each portfolio's details
 export const Portfolio = (props) => {
     return (
+        <>
+            <Outlet/>
         <div style={{height:"80%", display:"flex", justifyContent:"space-evenly", overflowY:"auto"}}>
             <div style={{display:"auto"}}>
                 {portfoliodata.introlist1.map((items) => {
@@ -27,5 +26,6 @@ export const Portfolio = (props) => {
                 })}
             </div>
         </div>
+        </>
     )
 }

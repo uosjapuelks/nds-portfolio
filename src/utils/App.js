@@ -7,6 +7,7 @@ import {ContentCard} from "../components/layout/info";
 import {About} from "../pages/about";
 import {Resume} from "../pages/resume";
 import {Portfolio} from "../pages/portfolio";
+import {Capstone} from "../pages/portfolio/capstone";
 
 
 function App() {
@@ -15,10 +16,14 @@ function App() {
       <Routes>
           <Route path={"/"} exact element={<Layout><ContentCard title={"About Me"}>
               <About/></ContentCard></Layout>} />
-          <Route path={"/resume"} exact element={<Layout><ContentCard title={"Resume"}>
+              <Route path={"/"} exact element={<Layout><ContentCard title={"About Me"}>
+                  <About/></ContentCard></Layout>} />
+          <Route path={"/resume"} element={<Layout><ContentCard title={"Resume"}>
               <Resume/></ContentCard></Layout>} />
-          <Route path={"/projects"} exact element={<Layout><ContentCard title={"Portfolio"}>
-              <Portfolio/></ContentCard></Layout>} />
+          <Route path={"/projects"} element={<Layout><ContentCard title={"Portfolio"}>
+              <Portfolio/></ContentCard></Layout>}>
+              <Route path="capstone" element={<Capstone/>} />
+          </Route>
       </Routes>
     </BrowserRouter>
   );

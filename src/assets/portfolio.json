@@ -1,6 +1,6 @@
 {
   "introlist1" : [
-    {"project" :  "Gesture Controlled Laser Tag", "href" :  "/project", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
+    {"project" :  "Gesture Controlled Laser Tag", "href" :  "/projects/capstone", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
     {"project" :  "FPGA Mini Project", "href" :  "/", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
   ],
   "introlist2" : [
