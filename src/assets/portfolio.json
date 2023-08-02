@@ -37,16 +37,12 @@
     "UG" : "https://uosjapuelks.github.io/tp/UserGuide.html",
     "DG" : "https://uosjapuelks.github.io/tp/DeveloperGuide.html"
   },
-  "fridget" : {
+  "minifpga" : {
     "shortenedName" : "Digital Design Mini Project",
     "name" : "FPGA Design Project: Sight and Sound Entertainment System\n",
     "image" : "/covers/BoardIntro.jpg",
     "git" : "https://github.com/uosjapuelks/digital-design",
-    "additionalLink" : "",
-    "additionalMsg" : "",
-    "site" : "https://uosjapuelks.github.io/tp/",
-    "sample" : "https://github.com/AY2122S1-CS2113T-W12-4/tp/releases/download/v2.1/Fridget.jar",
-    "UG" : "https://uosjapuelks.github.io/tp/UserGuide.html",
+    "report" : "EE2026Report.pdf",
     "DG" : "https://uosjapuelks.github.io/tp/DeveloperGuide.html"
   }
 }

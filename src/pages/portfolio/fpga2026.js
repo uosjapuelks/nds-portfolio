@@ -4,7 +4,7 @@ import data from "../../assets/portfolio.json";
 import {CheckReport, VisitGit} from "../../components/common/clickable";
 
 export const Minifpga = (props) => {
-    const project = data.cg4002;
+    const project = data.minifpga;
     return (
         <ContentCard title={project.shortenedName}>
             <div style={{overflowY:"auto",height:"80%",}}>
@@ -18,7 +18,7 @@ export const Minifpga = (props) => {
                     <br/><br/>
                 </div>
 
-                {/*<CheckReport src={project.report}> See Full Report </CheckReport>*/}
+                <CheckReport src={require(`../../assets/${project.report}`)}> See Full Report </CheckReport>
             </div>
         </ContentCard>
     )

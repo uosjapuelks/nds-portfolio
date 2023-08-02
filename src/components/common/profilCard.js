@@ -62,9 +62,9 @@ export const ProfilCard = (props) => {
                 width: "100%",
                 justifyContent: "center",
             }}>
-                <SocialIcon url="https://www.linkedin.com/in/andersonleong/" />
-                <SocialIcon url="github.com/uosjapuelks/" />
-                <SocialIcon url="mailto:anderson@u.nus.edu" />
+                <SocialIcon url="https://www.linkedin.com/in/andersonleong/" target="_blank"/>
+                <SocialIcon url="https://github.com/uosjapuelks/" target="_blank"/>
+                <SocialIcon url="mailto:anderson@u.nus.edu" target="_blank"/>
             </div>
             <div style={{
                 height: "50%",

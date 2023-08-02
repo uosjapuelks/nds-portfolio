@@ -36,6 +36,7 @@ export const DownldRes = (props) => {
     return (
         <div className="download">
             <DownRes className="themedButton"
+                     target="_blank"
                     href="https://uosjapuelks.github.io/anderson/files/Resume_Anderson_Leong.pdf"
                     style={{padding: "0.625rem 1.25rem", display: "inline-flex", }}
             > <DownloadLogo/>Download Resume</DownRes>
