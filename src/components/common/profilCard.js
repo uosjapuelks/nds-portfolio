@@ -1,9 +1,8 @@
-import fonts from '../../styles/font.module.css';
+import '../../styles/font.css';
 import profilePicture from "../../images/hollandfieldssolo.jpeg";
 import {SocialIcon} from 'react-social-icons';
 import {PhoneLogo, EmailLogo, LocationLogo} from "./icons";
 import {ContactDetails, DownldRes} from "../specificLayouts/profile";
-import {Themed} from "./clickable";
 
 export const ProfilePic = (props) => {
     return (
@@ -36,7 +35,7 @@ export const ProfilCard = (props) => {
             marginBottom: "3.25rem",
         }}
         >
-            <h1 className={fonts.profileName}
+            <h1 className="profileName"
                 style={{
                     width:"100%",
                     paddingTop: "6.25rem",
@@ -46,7 +45,7 @@ export const ProfilCard = (props) => {
             >
                 Anderson Leong
             </h1>
-            <h2 className={fonts.role}
+            <h2 className="role"
                 style={{
                     margin: "0",
                     textAlign: "center",

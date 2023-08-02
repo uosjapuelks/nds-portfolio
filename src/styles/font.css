@@ -99,3 +99,16 @@
     background: linear-gradient(127deg, #A4508B 0%, #400B83 100%);
 }
 
+.gitlink {
+    margin: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #F2F7FC;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 166.667% */
+
+}

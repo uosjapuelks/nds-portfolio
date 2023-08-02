@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import "../../styles/font.css"
 const Themed = styled.a`
   justify-content: center;
   align-items: center;
@@ -46,6 +46,34 @@ const Maincard = styled.div`
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
   padding: 0 3.75rem;
 `
+
+export const VisitGit = ({project}) => {
+    return (
+        <>
+            <br/><br/><DownRes className="gitlink"
+                               style={{padding: "0.625rem 1.25rem"}}
+                               href={project.git} target="_blank"
+                               style={{textDecoration:"none"}}>
+            Click to visit the Github Repo</DownRes>
+            <br/><br/><br/>
+        </>
+
+    )
+}
+
+export const CheckReport = (props) => {
+    return (
+        <>
+            <br/><br/><DownRes className="gitlink"
+                               style={{padding: "0.625rem 1.25rem"}}
+                               href={props.src} target="_blank"
+                               style={{textDecoration:"none"}}>
+            {props.children}</DownRes>
+            <br/><br/><br/>
+        </>
+
+    )
+}
 
 export {Themed, DownRes, Maincard};
 

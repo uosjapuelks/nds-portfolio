@@ -1,4 +1,4 @@
-import fonts from "../../styles/font.module.css";
+import "../../styles/font.css";
 import {DownRes} from "../common/clickable";
 import {DownloadLogo} from "../common/icons";
 
@@ -16,13 +16,13 @@ export const ContactDetails = (props) => {
             }}
             >
                 <props.src/>
-                <div className={fonts.contactDeet}
+                <div className="contactDeet"
                      style={{
                          marginLeft:"1.12rem",
                          textAlign: "left",
                          marginTop:".8rem",
                      }}>
-                    <p className={fonts.contactMeans} style={{margin:"0 0 0.4rem 0"}}>{props.item}</p>
+                    <p className="contactMeans" style={{margin:"0 0 0.4rem 0"}}>{props.item}</p>
                     {props.children}
                 </div>
             </div>
@@ -34,8 +34,8 @@ export const ContactDetails = (props) => {
 
 export const DownldRes = (props) => {
     return (
-        <div className={fonts.download}>
-            <DownRes className={fonts.themedButton}
+        <div className="download">
+            <DownRes className="themedButton"
                     href="https://uosjapuelks.github.io/anderson/files/Resume_Anderson_Leong.pdf"
                     style={{padding: "0.625rem 1.25rem", display: "inline-flex", }}
             > <DownloadLogo/>Download Resume</DownRes>

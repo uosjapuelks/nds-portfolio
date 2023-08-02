@@ -9,6 +9,8 @@ import {Resume} from "../pages/resume";
 import {Portfolio, PortfolioMain} from "../pages/portfolio";
 import {Capstone} from "../pages/portfolio/capstone";
 import {LandingPage} from "../pages/landing-page";
+import {Rtoscar} from "../pages/portfolio/rtoscar";
+import {Fridget} from "../pages/portfolio/fridget";
 
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
               <Route path={"projects"} element={<Portfolio/>}>
                   <Route path="" element={<PortfolioMain/>} />
                   <Route path="capstone" element={<Capstone/>} />
+                  <Route path="fridget" element={<Fridget/>} />
+                  <Route path="minifpga" element={<Capstone/>} />
+                  <Route path="rtoscar" element={<Rtoscar/>} />
           </Route>
           </Route>
       </Routes>

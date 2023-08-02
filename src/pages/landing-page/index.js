@@ -1,6 +1,5 @@
 import {LayoutDesktop} from "../../components/layout";
 import {NavCard} from "../../components/layout/navcard";
-import {About} from "../about";
 import {Outlet} from "react-router-dom";
 
 

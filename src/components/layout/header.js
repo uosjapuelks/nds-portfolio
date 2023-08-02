@@ -1,4 +1,4 @@
-import fonts from "../../styles/font.module.css";
+import "../../styles/font.css";
 import {useWindowDimensions} from "../../utils/App";
 import logo from "../../images/randomLogo.png";
 import profilePicture from "../../images/hollandfieldssolo.jpeg";
@@ -29,7 +29,7 @@ export const Header = (props) => {
                 }}
             />
             <div
-                className={fonts.heading}
+                className="heading"
                 style={{
                     display: "flex",
                     padding: "3.2rem 0 0 0",

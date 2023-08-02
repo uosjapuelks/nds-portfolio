@@ -1,5 +1,4 @@
 import {Themed} from "../common/clickable";
-import fonts from "../../styles/font.module.css";
 import "../../styles/navbar.css";
 import {HomeLogo, ResumeLogo, WorkLogo} from "../common/icons";
 import {NavLink} from "react-router-dom";
