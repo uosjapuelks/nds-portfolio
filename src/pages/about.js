@@ -1,4 +1,5 @@
-import "../styles/about.css"
+import "../styles/about.css";
+import aboutData from "../assets/about.json";
 
 //TODO: About - Areas of Interest
 export const About = (props) => {
@@ -12,6 +13,16 @@ export const About = (props) => {
                 Academics aside, I also partake in a multitude of co-curricular activities to hone my soft skills such as taking up leadership roles or joining planning committees. <br/>
                 I believe my experiences and skills can be of value in projects, and the projects pushes me towards improvements which I Seek.
             </div>
+
+            <div className="about-sectioning" style={{marginBottom:"1.2rem"}}>
+                Areas of Interest
+            </div>
+            <div className="about-flex">
+            {aboutData.interests.map((interests) => {
+                return <div className="stack">{interests}</div>
+            })}
+            </div>
+
 
             <div className="about-sectioning">
                 Availability

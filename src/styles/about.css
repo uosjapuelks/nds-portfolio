@@ -17,3 +17,8 @@
     letter-spacing: 0.05rem;
     margin-top: 2rem;
 }
+.about-flex {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+}

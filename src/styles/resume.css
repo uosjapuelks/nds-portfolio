@@ -1,0 +1,87 @@
+.resume-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.73356rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.88931rem; /* 166.667% */
+    letter-spacing: 0.04331rem;
+}
+
+.resume-logo {
+    width: 1.73356rem;
+    height: 1.73356rem;
+}
+
+.res-date {
+    color: rgba(26, 16, 3, 0.50);
+    font-family: Raleway;
+    font-size: 0.86681rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+.res-role {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 165%;
+}
+
+.res-company {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 165%;
+}
+
+.res-level {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 145%;
+}
+.res-misc {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 165%;
+}
+
+.res-scroll {
+    height: calc(100% - 3.4rem);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-top: 3.4rem;
+}
+
+.res-sidescroll {
+    display: inline-flex;
+    width: 100%;
+    overflow-x: auto;
+    padding-top: 3.4rem;
+    gap: 1.2rem;
+    box-sizing: content-box;
+}
+
+.res-mainbox {
+    position: relative;
+    height: 100%;
+
+}
+.res-overallTitle {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}

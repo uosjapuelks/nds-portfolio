@@ -8,6 +8,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.stack {
+  box-sizing: border-box;
+  padding: 0.4rem .6rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #E1E8EF;
+
+  color: #000;
+  font-family: Raleway;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 200% */
+  letter-spacing: 0.015rem;
+}
 
 /*code {*/
 /*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
