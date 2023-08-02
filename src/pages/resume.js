@@ -3,9 +3,12 @@ import gradHat from "../images/icons/icon-park-outline_degree-hat.svg";
 import briefcase from "../images/icons/humbleicons_briefcase.svg";
 import tech from "../images/icons/techStack.png";
 import resData from "../assets/resume.json";
+import {ContentCard} from "../components/layout/info";
 
+//TODO: cleanup Resume code
 export const Resume = (props) => {
     return (
+        <ContentCard title={"Resume"}>
         <div className="res-mainbox" style={{width:"100%"}}>
             <div style={{height:"55%", display:"flex", justifyContent:"flex-start", overflowY:"hidden"}}>
                 <div className="res-mainbox" style={{width:"50%"}}>
@@ -44,5 +47,6 @@ export const Resume = (props) => {
                 </div>
             </div>
         </div>
+        </ContentCard>
     )
 }

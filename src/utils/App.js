@@ -6,23 +6,22 @@ import { useState, useEffect } from 'react';
 import {ContentCard} from "../components/layout/info";
 import {About} from "../pages/about";
 import {Resume} from "../pages/resume";
-import {Portfolio} from "../pages/portfolio";
+import {Portfolio, PortfolioMain} from "../pages/portfolio";
 import {Capstone} from "../pages/portfolio/capstone";
+import {LandingPage} from "../pages/landing-page";
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path={"/"} exact element={<Layout><ContentCard title={"About Me"}>
-              <About/></ContentCard></Layout>} />
-              <Route path={"/"} exact element={<Layout><ContentCard title={"About Me"}>
-                  <About/></ContentCard></Layout>} />
-          <Route path={"/resume"} element={<Layout><ContentCard title={"Resume"}>
-              <Resume/></ContentCard></Layout>} />
-          <Route path={"/projects"} element={<Layout><ContentCard title={"Portfolio"}>
-              <Portfolio/></ContentCard></Layout>}>
-              <Route path="capstone" element={<Capstone/>} />
+          <Route path={"/"} exact element={<Layout><LandingPage/></Layout>}>
+              <Route path="" element={<About/>}/>
+              <Route path="resume" element={<Resume/>} />
+              <Route path={"projects"} element={<Portfolio/>}>
+                  <Route path="" element={<PortfolioMain/>} />
+                  <Route path="capstone" element={<Capstone/>} />
+          </Route>
           </Route>
       </Routes>
     </BrowserRouter>
