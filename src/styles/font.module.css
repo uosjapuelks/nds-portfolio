@@ -95,16 +95,6 @@
     margin-right: 2rem;
 }
 
-.navSelection {
-    width: 5rem;
-    height: 4rem;
-    padding-top: 1rem;
-    display: block;
-    color: #F2F5F9;
-    text-align: center;
-    background-color: #E1E8EF;
-}
-
 .active {
     background: linear-gradient(127deg, #A4508B 0%, #400B83 100%);
 }

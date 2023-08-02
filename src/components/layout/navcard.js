@@ -25,12 +25,10 @@ export const NavCard = () => {
                 justifyContent: "space-evenly",
                 alignItems: "center",
             }}>
-                <NavLink to={"/"} exact className={fonts.navSelection} style={({ isActive }) => {
+                <NavLink to={"/"} exact className="navlink-navcard" style={({ isActive }) => {
                     setToggle(isActive)
                     return (
                         {
-                            borderRadius: "1.25rem",
-                            textDecoration: "none",
                             color: isActive ? '#E1E8EFFF' : '#1A1003',
                             opacity: isActive ? '1' : '0.5',
                             background: isActive ? "linear-gradient(127deg, #A4508B 0%, #400B83 100%)" : "#c5cbd2",
@@ -41,12 +39,10 @@ export const NavCard = () => {
                 }}> <><HomeLogo active={toggle}/>
                     About</> </NavLink>
 
-                <NavLink to="/resume" className={fonts.navSelection} style={({ isActive }) => {
+                <NavLink to="/resume" className="navlink-navcard" style={({ isActive }) => {
                     setToggle1(isActive)
                     return (
                         {
-                            borderRadius: "1.25rem",
-                            textDecoration: "none",
                             color: isActive ? '#E1E8EFFF' : '#1A1003',
                             opacity: isActive ? '1' : '0.5',
                             background: isActive ? "linear-gradient(127deg, #A4508B 0%, #400B83 100%)" : "#c5cbd2",
@@ -57,7 +53,7 @@ export const NavCard = () => {
                 }}> <><ResumeLogo active={toggle1}/>
                     Resume</> </NavLink>
 
-                <NavLink to="/projects" className={fonts.navSelection} style={({ isActive }) => {
+                <NavLink to="/projects" className="navlink-navcard" style={({ isActive }) => {
                     setToggle2(isActive)
                     return (
                         {

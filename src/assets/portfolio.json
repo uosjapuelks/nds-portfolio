@@ -1,0 +1,10 @@
+{
+  "introlist1" : [
+    {"project" :  "Gesture Controlled Laser Tag", "href" :  "/project", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
+    {"project" :  "FPGA Mini Project", "href" :  "/", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
+  ],
+  "introlist2" : [
+    {"project" :  "CLI Application", "href" :  "", "src" :  "FridgetIntro.jpg", "color" :  "Light", "role" :  "Software Engineer"},
+    {"project" :  "SelfDriving / Remote Controlled Mini-Car", "href" :  "", "src" :  "2271Intro.png", "color" :  "Sat", "role" :  "Real-Time Operating Systems"}
+  ]
+}

@@ -1,5 +1,4 @@
 import "../styles/resume.css";
-//TODO: WIP logo?
 
 export const ResumeTitle = (props) => {
     return (
