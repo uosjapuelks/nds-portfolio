@@ -38,7 +38,7 @@ export const Resume = (props) => {
                     </div>
                 </div>
             </div>
-            <div style={{height:"25%", display:"normal", overflowX:"auto"}}>
+            <div style={{height:"25%", display:"normal", overflowX:"auto", width:"60vw"}}>
                 <ResumeTitle src={tech}> Tech Stack </ResumeTitle>
                 <div className="res-sidescroll">
                     {resData.techstack.map((techstack) => {

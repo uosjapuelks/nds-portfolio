@@ -13,7 +13,7 @@ export const NavCard = () => {
             // width: "31.4375rem",
             width: "25rem",
             height: "6.25rem",
-            margin: "0 0 1rem auto",
+            margin: "0 5vw 1rem auto",
             borderRadius: "1.25rem",
             background: "#fafbfd",
             boxShadow: "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
