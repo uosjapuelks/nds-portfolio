@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/minicard.css";
+import "../styles/utils.css"
 
 //TODO: Portfolio component details
 export const DynamicCard = (props) => {
@@ -8,10 +9,13 @@ export const DynamicCard = (props) => {
             <div
                 className= {props.color}
                 style={{
-                     width: "21.875rem",
-                     margin: "2rem 0",
+                    width: "100%",
+                    minWidth: "13.875rem",
+                    margin: "2rem 0",
                 }}>
-                <img src={props.src} className="portfolio-click shortPic" style={{position:"relative"}}></img>
+                <div className="centerdiv">
+                    <img src={props.src} className="portfolio-click shortPic"></img>
+                </div>
                 <CardInfo role={props.role}>{props.children}</CardInfo>
             </div>
         </a>

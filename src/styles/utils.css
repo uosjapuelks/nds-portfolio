@@ -12,3 +12,9 @@
     width: 100%;
     position: absolute;
 }
+
+.centerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -34,11 +34,10 @@
 }
 
 .shortPic {
-    width: 20.875rem;
+    width: 90%;
+    min-width: 13.875rem;
     /*height: 6.25rem;*/
-    position: absolute;
-    left: 0.5rem;
-    top: 0.5rem;
+    top: .8rem;
     border-radius: 0.5rem;
     /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
 }

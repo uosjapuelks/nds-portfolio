@@ -4,41 +4,45 @@ import {SocialIcon} from 'react-social-icons';
 import {PhoneLogo, EmailLogo, LocationLogo} from "./icons";
 import {ContactDetails, DownldRes} from "../specificLayouts/profile";
 
-export const ProfilePic = (props) => {
+const ProfilePic = (props) => {
     return (
-        <img
-            src={profilePicture}
-            style={{
-                marginLeft: "2.75rem",
-                width: "12.5rem",
-                height: "12.5rem",
-                flexShrink: "0",
-                objectFit: "scale-down",
-                borderRadius: "1.25rem",
-                boxShadow: "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
-            }}
-        />
+        <div style={{display:"flex", justifyContent:"center",}}>
+            <img
+                src={profilePicture}
+                style={{
+                    marginTop:"-6.25rem",
+                    width: "12.5rem",
+                    height: "12.5rem",
+                    flexShrink: "0",
+                    objectFit: "scale-down",
+                    borderRadius: "1.25rem",
+                    boxShadow: "0px 0px 4px 0px rgba(0, 0, 0, 0.25)",
+                }}
+            />
+        </div>
     )
 }
 
 export const ProfilCard = (props) => {
     return (
         <div style={{
-            width: "18rem",
+            width: "20vw",
             height: "69vh",
             minHeight: "36.5rem",
+            minWidth: "18rem",
             flexShrink: "0",
             borderRadius: "1.25rem",
             background: "#FFF",
             boxShadow: "0px 0px 0px 0px rgba(0, 0, 0, 0.25)",
-            marginTop: "-6.25rem",
-            marginBottom: "3.25rem",
+            marginTop: "6.25rem",
+            // marginBottom: "3.25rem",
+            justifyContent:"center",
         }}
         >
+            <ProfilePic/>
             <h1 className="profileName"
                 style={{
                     width:"100%",
-                    paddingTop: "6.25rem",
                     textAlign: "center",
                     margin:"0",
                 }}

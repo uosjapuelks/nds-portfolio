@@ -5,7 +5,7 @@ import profilePicture from "../../images/hollandfieldssolo.jpeg";
 
 export const Header = (props) => {
     const { height, width } = useWindowDimensions();
-
+    const logoText = "ee";
     return (
         <div
             style={{
@@ -38,7 +38,7 @@ export const Header = (props) => {
                     fontWeight: "bold",
                     fontSize: 40,
                 }}>
-                ee
+                {logoText}
             </div>
         </div>
     )

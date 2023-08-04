@@ -14,7 +14,7 @@ export const PortfolioMain = (props) => {
     return (
         <ContentCard title={"Portfolio"}>
         <div style={{height:"80%", display:"flex", justifyContent:"space-evenly", overflowY:"auto"}}>
-            <div style={{display:"auto"}}>
+            <div style={{display:"auto", width:"47.5%",}}>
                 {portfoliodata.introlist1.map((items) => {
                     return <DynamicCard href={items.href}
                                         src={require(`../images/portfolio/covers/${items.src}`)}
@@ -23,7 +23,7 @@ export const PortfolioMain = (props) => {
                 })}
                 {/*<DynamicCard color="Alt"> Short </DynamicCard>*/}
             </div>
-            <div style={{display:"auto",}}>
+            <div style={{display:"auto", width:"47.5%"}}>
                 {portfoliodata.introlist2.map((items) => {
                     return <DynamicCard href={items.href}
                                         src={require(`../images/portfolio/covers/${items.src}`)}

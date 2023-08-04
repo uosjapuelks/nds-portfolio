@@ -6,10 +6,11 @@ export const LayoutDesktop = (props) => {
 
     return (
         <div style={{
-            padding: "0 6.25rem 0 6.25rem",
+            padding: "0 5vw",
+            borderRadius: "0 5vw",
             height: "auto",
-            minWidth: "64rem",
-            minHeight: "50rem",
+            minWidth: "16rem",
+            minHeight: "48rem",
         }}>
             <Header/>
             <div style={{display:"flex"}}>
