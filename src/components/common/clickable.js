@@ -35,11 +35,11 @@ const DownRes = styled.a`
 `
 
 const Maincard = styled.div`
-  margin: .4rem 5vw auto 2vw;
+  margin: .4rem 5vw 1.5vw 2vw;
   //width: 60vw;
-  height: 79vh;
+  height: 77vh;
   min-height: 44.7rem;
-  min-width: 30rem;
+  min-width: 25rem;
   border-radius: 1.25rem;
   background: #FFF;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);

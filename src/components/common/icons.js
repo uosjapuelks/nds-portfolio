@@ -41,7 +41,7 @@ export const DownloadLogo = (props) => {
 
 export const MainLine = (props) => {
     return (
-        <svg style={{marginTop:"3rem", }} xmlns="http://www.w3.org/2000/svg" width="254" height="4" viewBox="0 0 254 4" fill="none">
+        <svg style={{marginTop:"3rem", }} xmlns="http://www.w3.org/2000/svg" width="auto" height="4" viewBox="0 0 254 4" fill="none">
             <path d="M1 1L253 3" stroke="url(#paint0_linear_33_72)" stroke-width="2" stroke-linecap="round"/>
             <defs>
                 <linearGradient id="paint0_linear_33_72" x1="127" y1="1" x2="127" y2="3" gradientUnits="userSpaceOnUse">
