@@ -10,7 +10,7 @@ export const DynamicCard = (props) => {
                 className= {props.color}
                 style={{
                     width: "100%",
-                    minWidth: "13.875rem",
+                    minWidth: "6.875rem",
                     margin: "2rem 0",
                 }}>
                 <div className="centerdiv">
