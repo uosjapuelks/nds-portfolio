@@ -45,18 +45,18 @@ export const Header = (props) => {
 }
 
 export const MobileHeader = (props) => {
-    const { height, width } = useWindowDimensions();
     const logoText = "NavCard";
     return (
         <div
             style={{
                 display: "flex",
-                width: "90vw",
-                height: "1.5rem",
+                width: "100vw",
+                height: "2.5rem",
                 justifyContent: "space-between",
-                alignItems: "center",
-                padding: "1.13rem 0 1.25rem 0",
-                position:"absolute",
+                padding: ".5rem 0 1.25rem 0",
+                position:"fixed",
+                background:"#F2F5F9",
+                opacity:"90%",
             }}
         >
             <img
@@ -70,9 +70,7 @@ export const MobileHeader = (props) => {
             <div
                 className="heading"
                 style={{
-                    // display: "flex",
                     right:"0",
-                    left:"auto",
                     fontWeight: "bold",
                     fontSize: 20,
                 }}>

@@ -93,7 +93,7 @@ const MobileProfilePic = (props) => {
             <img
                 src={profilePicture}
                 style={{
-                    // marginTop:"-6.25rem",
+                    marginTop:"-6.25rem",
                     width: "12.5rem",
                     height: "12.5rem",
                     flexShrink: "0",
@@ -109,10 +109,8 @@ const MobileProfilePic = (props) => {
 export const MobileProfileCard = (props) => {
     return (
         <div style={{
-            // width: "20vw",
-            // height: "69vh",
-            // minHeight: "36.5rem",
-            // minWidth: "18rem",
+            width: "80vw",
+            height: "42.5rem",
             borderRadius: "1.25rem",
             background: "#FFF",
             boxShadow: "0px 0px 0px 0px rgba(0, 0, 0, 0.25)",
@@ -123,14 +121,12 @@ export const MobileProfileCard = (props) => {
                 style={{
                     width:"100%",
                     textAlign: "center",
-                    margin:"0",
                 }}
             >
                 Anderson Leong
             </h1>
             <h2 className="role"
                 style={{
-                    margin: "0",
                     textAlign: "center",
                 }}
             >
@@ -141,7 +137,7 @@ export const MobileProfileCard = (props) => {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "0.56844rem",
-                height:"4rem",
+                height:"3rem",
                 width: "100%",
                 justifyContent: "center",
             }}>
@@ -150,7 +146,7 @@ export const MobileProfileCard = (props) => {
                 <SocialIcon url="mailto:anderson@u.nus.edu" target="_blank"/>
             </div>
             <div style={{
-                height: "50%",
+                height: "20rem",
                 width: "90%",
                 margin:"1.12rem 5%",
                 borderRadius: "1.25rem",

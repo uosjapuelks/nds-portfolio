@@ -11,6 +11,7 @@ import {LandingPage} from "../pages/landing-page";
 import {Rtoscar} from "../pages/portfolio/rtoscar";
 import {Fridget} from "../pages/portfolio/fridget";
 import {Minifpga} from "../pages/portfolio/fpga2026";
+import {MobileProfileCard} from "../components/common/profilCard";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
                   <Route path="fridget" element={<Fridget/>} />
                   <Route path="minifpga" element={<Minifpga/>} />
                   <Route path="rtoscar" element={<Rtoscar/>} />
-          </Route>
+              </Route>
+              <Route path="contact" element={<MobileProfileCard/>}/>
           </Route>
       </Routes>
     </HashRouter>
