@@ -10,7 +10,6 @@ export const NavCard = () => {
     const [toggle2, setToggle2] = useState(false);
     return (
         <div style={{
-            // width: "31.4375rem",
             width: "25rem",
             height: "6.25rem",
             margin: "0 5vw 1rem auto",

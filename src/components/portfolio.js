@@ -41,15 +41,12 @@ export const FixedCard = (props) => {
 export const CardInfo = (props) => {
     return (
         <div className="portfolio-name"
-            style={{
-            margin: "1rem 0.5rem",
-            paddingBottom:"1rem",
-        }}>
+             style={{
+                 margin: "1rem 0.5rem",
+                 paddingBottom: "1rem",
+             }}>
             <div className="portfolio-role">{props.role}</div>
             {props.children}
         </div>
     )
 }
-
-//TODO: Navbar?
-

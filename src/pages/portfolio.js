@@ -21,7 +21,6 @@ export const PortfolioMain = (props) => {
                                         color={items.color}
                                         role={items.role}> {items.project} </DynamicCard>
                 })}
-                {/*<DynamicCard color="Alt"> Short </DynamicCard>*/}
             </div>
             <div style={{display:"auto", width:"47.5%"}}>
                 {portfoliodata.introlist2.map((items) => {

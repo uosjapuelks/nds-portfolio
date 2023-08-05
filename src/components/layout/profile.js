@@ -1,9 +1,17 @@
-import {ProfilePic, ProfilCard} from "../common/profilCard";
+import {ProfilePic, ProfilCard, MobileProfileCard} from "../common/profilCard";
 
 export const Profile = (props) => {
     return (
-        <div>
+        <>
             <ProfilCard/>
-        </div>
+        </>
+    )
+}
+
+export const MobileProfile = (props) => {
+    return (
+        <>
+            <MobileProfileCard/>
+        </>
     )
 }
