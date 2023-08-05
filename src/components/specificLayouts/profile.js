@@ -9,7 +9,6 @@ export const ContactDetails = (props) => {
             justifyContent: "center",
             alignItems: "center",
             textAlign: "center",
-            // background: "grey"
         }}>
             <div style={{display:"flex", marginLeft: "15%",
                 alignItems:"center", height:"100%",

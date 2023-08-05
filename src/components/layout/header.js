@@ -2,6 +2,7 @@ import "../../styles/font.css";
 import {useWindowDimensions} from "../../utils/App";
 import logo from "../../images/randomLogo.png";
 import profilePicture from "../../images/hollandfieldssolo.jpeg";
+import {MobileNavCard} from "./navcard";
 
 export const Header = (props) => {
     const { height, width } = useWindowDimensions();
@@ -45,14 +46,13 @@ export const Header = (props) => {
 }
 
 export const MobileHeader = (props) => {
-    const logoText = "NavCard";
     return (
         <div
             style={{
-                display: "flex",
+                // display: "flex",
                 width: "100vw",
-                height: "2.5rem",
-                justifyContent: "space-between",
+                height: "4.5rem",
+                // justifyContent: "space-between",
                 padding: ".5rem 0 1.25rem 0",
                 position:"fixed",
                 background:"#F2F5F9",
@@ -62,20 +62,12 @@ export const MobileHeader = (props) => {
             <img
                 src={logo}
                 style={{
+                    margin:"1rem",
                     width: "3.5rem",
                     height: "3.5rem",
                     objectFit: "scale-down",
                 }}
             />
-            <div
-                className="heading"
-                style={{
-                    right:"0",
-                    fontWeight: "bold",
-                    fontSize: 20,
-                }}>
-                {logoText}
-            </div>
         </div>
     )
 }

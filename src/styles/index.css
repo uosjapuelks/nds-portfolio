@@ -37,6 +37,39 @@ body {
   background-color: #E1E8EF;
 }
 
+.nav-burger {
+  margin: .8rem .6rem 0 .6rem;
+  border-radius: 1.25rem;
+  text-decoration: none;
+  width: 5rem;
+  height: 4rem;
+  padding-top: 1rem;
+  display: block;
+  color: #F2F5F9;
+  text-align: center;
+  background-color: #E1E8EF;
+}
+
+.sidebar {
+  z-index: 1;
+  position: fixed;
+  width: 6.25rem;
+  height: 6.25rem;
+  right: 0;
+  /*margin: 0 5vw 0 0;*/
+  border-radius: 1.25rem;
+  background: #fafbfd;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.22s;
+  visibility: hidden;
+}
+
+.sidebar.active {
+  height: 32.25rem;
+  right:0;
+  visibility: visible;
+}
+
 /*code {*/
 /*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
 /*    monospace;*/

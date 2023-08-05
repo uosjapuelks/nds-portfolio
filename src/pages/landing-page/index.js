@@ -10,7 +10,7 @@ const Layout = (props) => {
     return (
         <ChosenLayout>
             {/*<div>*/}
-            {/*    {props.children}*/}
+                {props.children}
             {/*</div>*/}
         </ChosenLayout>
 )

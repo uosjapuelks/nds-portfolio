@@ -1,7 +1,8 @@
 import {Header, MobileHeader} from "./header";
 import {useWindowDimensions} from "../../utils/App";
 import {MobileProfile, Profile} from "./profile";
-import {NavCard} from "./navcard";
+import {MobileNavCard, NavCard} from "./navcard";
+import {MobileProfileCard} from "../common/profilCard";
 
 export const LayoutDesktop = (props) => {
     return (
@@ -27,13 +28,13 @@ export const LayoutMobile = (props) => {
 
     return (
         <>
+            <MobileNavCard/>
             <MobileHeader/>
             <div style={{display:"flex", justifyContent:"center", alignItems:"center", paddingBottom:"2rem"}}>
                 <div style={{}}>
-                        <div style={{marginTop:"10.5rem"}}>
-                            <MobileProfile/>
+                        <div style={{marginTop:"12.5rem"}}>
                             {/*<div style={{marginTop:"-7rem", width:"100%"}}>*/}
-                            {/*    {props.children}*/}
+                                {props.children}
                             {/*</div>*/}
                         </div>
                 </div>
