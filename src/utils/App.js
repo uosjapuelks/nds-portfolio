@@ -1,6 +1,6 @@
 import '../styles/App.css';
 import '../styles/minicard.css'
-import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
+import {BrowserRouter, Routes, Route, HashRouter, Router} from "react-router-dom";
 import { useState, useEffect } from 'react';
 import {About} from "../pages/about";
 import {Resume} from "../pages/resume";
@@ -19,7 +19,7 @@ function App() {
     let mobile = width <= 750;
 
     return (
-    <HashRouter>
+    <Router>
       <Routes>
           <Route path={"/"} exact element={<ChosenLayout><LandingPage/></ChosenLayout>}>
               <Route path="" element={<About/>}/>
@@ -34,7 +34,7 @@ function App() {
               <Route path="contact" element={<MobileProfileCard/>}/>
           </Route>
       </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 export default App;

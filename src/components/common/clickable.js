@@ -1,3 +1,4 @@
+import React from "react"
 import styled from 'styled-components'
 import "../../styles/font.css"
 const Themed = styled.a`

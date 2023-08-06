@@ -1,8 +1,6 @@
 import {Header, MobileHeader} from "./header";
-import {useWindowDimensions} from "../../utils/App";
-import {MobileProfile, Profile} from "./profile";
+import {Profile} from "./profile";
 import {MobileNavCard, NavCard} from "./navcard";
-import {MobileProfileCard} from "../common/profilCard";
 
 export const LayoutDesktop = (props) => {
     return (

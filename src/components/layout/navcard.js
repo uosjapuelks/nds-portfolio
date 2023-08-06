@@ -1,11 +1,8 @@
-import {Themed} from "../common/clickable";
 import "../../styles/navbar.css";
 import {AxeLogo, ContactBook, HomeLogo, ResumeLogo, WorkLogo} from "../common/icons";
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
-import Hamburger from 'hamburger-react'
-
-import {DownRes} from "../common/clickable";
+import Hamburger from 'hamburger-react';
 
 const NavStyle = (isActive) => {
     return (
