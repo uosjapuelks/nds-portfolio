@@ -1,6 +1,6 @@
 import {Themed} from "../common/clickable";
 import "../../styles/navbar.css";
-import {AxeLogo, HomeLogo, ResumeLogo, WorkLogo} from "../common/icons";
+import {AxeLogo, ContactBook, HomeLogo, ResumeLogo, WorkLogo} from "../common/icons";
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
 import Hamburger from 'hamburger-react'
@@ -109,7 +109,7 @@ export const MobileNavCard = (props) => {
                 <NavLink to="/contact" className="navlink-navcard" style={({ isActive }) => {
                     setToggle3(isActive);
                     return NavStyle(isActive);
-                }}> <><WorkLogo active={toggle3}/>
+                }}> <><ContactBook active={toggle3}/>
                     Contact</> </NavLink>
 
             </nav>
