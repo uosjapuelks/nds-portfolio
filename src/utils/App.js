@@ -34,7 +34,7 @@ function App() {
               <Route path="contact" element={<MobileProfileCard/>}/>
           </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter basename={process.env.PUBLIC_URL}>
   );
 }
 export default App;
