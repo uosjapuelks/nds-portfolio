@@ -39,7 +39,7 @@ const Maincard = styled.div`
   //width: 60vw;
   height: 77vh;
   min-height: 44.7rem;
-  min-width: 25rem;
+  //min-width: 25rem;
   border-radius: 1.25rem;
   background: #FFF;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);

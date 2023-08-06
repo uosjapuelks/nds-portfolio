@@ -1,6 +1,5 @@
 import '../styles/App.css';
 import '../styles/minicard.css'
-import { Layout } from '../pages';
 import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
 import { useState, useEffect } from 'react';
 import {About} from "../pages/about";
@@ -12,12 +11,17 @@ import {Rtoscar} from "../pages/portfolio/rtoscar";
 import {Fridget} from "../pages/portfolio/fridget";
 import {Minifpga} from "../pages/portfolio/fpga2026";
 import {MobileProfileCard} from "../components/common/profilCard";
+import {LayoutDesktop, LayoutMobile} from "../components/layout";
 
 function App() {
-  return (
+    const { height, width } = useWindowDimensions();
+    const ChosenLayout = (width > 750 ? LayoutDesktop : LayoutMobile);
+    let mobile = width > 750;
+
+    return (
     <HashRouter>
       <Routes>
-          <Route path={"/"} exact element={<Layout><LandingPage/></Layout>}>
+          <Route path={"/"} exact element={<ChosenLayout><LandingPage/></ChosenLayout>}>
               <Route path="" element={<About/>}/>
               <Route path="resume" element={<Resume/>} />
               <Route path={"projects"} element={<Portfolio/>}>

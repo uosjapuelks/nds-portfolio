@@ -109,6 +109,7 @@ const MobileProfilePic = (props) => {
 export const MobileProfileCard = (props) => {
     return (
         <div style={{
+            marginTop:"12.5rem",
             width: "80vw",
             height: "42.5rem",
             borderRadius: "1.25rem",

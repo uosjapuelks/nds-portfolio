@@ -32,10 +32,8 @@ export const LayoutMobile = (props) => {
             <MobileHeader/>
             <div style={{display:"flex", justifyContent:"center", alignItems:"center", paddingBottom:"2rem"}}>
                 <div style={{}}>
-                        <div style={{marginTop:"12.5rem"}}>
-                            {/*<div style={{marginTop:"-7rem", width:"100%"}}>*/}
-                                {props.children}
-                            {/*</div>*/}
+                        <div style={{marginTop:"6.5rem"}}>
+                            {props.children}
                         </div>
                 </div>
             </div>
