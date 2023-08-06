@@ -70,14 +70,14 @@ export const MobileNavCard = (props) => {
 
     return (
         <div className={`sidebar ${burger ? 'active' : ''}`}>
-            <div className="nav-burger" onClick={()=>setBurger(!burger)}
+            <div className={`nav-burger ${burger ? 'active' : ''}`} onClick={()=>setBurger(!burger)}
                 style={{
                     display:"flex",
                     justifyContent: "space-evenly",
                     visibility:"visible",
                 }}
             >
-                <Hamburger active={burger} color={"#1A1003"}/>
+                <Hamburger active={burger} color={`${burger ? '#FFF' : '#1A1003'}`}/>
             </div>
 
             <nav

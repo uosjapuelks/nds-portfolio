@@ -48,6 +48,13 @@ body {
   color: #F2F5F9;
   text-align: center;
   background-color: #E1E8EF;
+  right: 0rem;
+  position: fixed;
+}
+
+.nav-burger.active {
+  right:0;
+  position: relative;
 }
 
 .sidebar {
@@ -55,7 +62,7 @@ body {
   position: fixed;
   width: 6.25rem;
   height: 6.25rem;
-  right: 0;
+  right: -10rem;
   /*margin: 0 5vw 0 0;*/
   border-radius: 1.25rem;
   background: #fafbfd;
