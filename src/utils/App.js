@@ -19,7 +19,7 @@ function App() {
     let mobile = width <= 750;
 
     return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
           <Route path={"/"} exact element={<ChosenLayout><LandingPage/></ChosenLayout>}>
               <Route path="" element={<About/>}/>
