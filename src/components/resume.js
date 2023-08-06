@@ -4,7 +4,7 @@ export const ResumeTitle = (props) => {
     return (
         <div
             className="res-overallTitle"
-            style={{width:"100%"}}>
+            style={{width:"100%", background:"#FFF"}}>
             <img className="resume-logo" src={props.src} style={{margin:".5rem"}}/>
             <div className="resume-title">
                 {props.children}

@@ -30,7 +30,7 @@ export const About = (props) => {
             <div className="about-sectioning">
                 Availability
             </div>
-            <div className="about-body" style={{textAlign:"justify"}}>
+            <div className="about-body" style={{textAlign:"justify", marginBottom:"1rem"}}>
                 <a style={{margin:"0", padding:"0", fontSize:"1.2rem"}}>Full-Time <b>Internship</b> from <b>11 December 2023 onwards</b> (for 24 Weeks)<br/></a>
                 <a style={{margin:"0", padding:"0", fontSize:"1.2rem"}}>Full-Time <b>employment</b> starting around the period: <b>June-October 2024</b></a>
             </div>

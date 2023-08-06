@@ -68,7 +68,7 @@
 .res-sidescroll {
     display: flex;
     flex-wrap: wrap;
-    height: 6.5vh;
+    height: 8.5vh;
     width: 100%;
     overflow-x: auto;
     margin-top: 3.4rem;

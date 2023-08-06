@@ -16,14 +16,14 @@ import {LayoutDesktop, LayoutMobile} from "../components/layout";
 function App() {
     const { height, width } = useWindowDimensions();
     const ChosenLayout = (width > 750 ? LayoutDesktop : LayoutMobile);
-    let mobile = width > 750;
+    let mobile = width <= 750;
 
     return (
     <HashRouter>
       <Routes>
           <Route path={"/"} exact element={<ChosenLayout><LandingPage/></ChosenLayout>}>
               <Route path="" element={<About/>}/>
-              <Route path="resume" element={<Resume/>} />
+              <Route path="resume" element={<Resume mobile={mobile}/>} />
               <Route path={"projects"} element={<Portfolio/>}>
                   <Route path="" element={<PortfolioMain/>} />
                   <Route path="capstone" element={<Capstone/>} />

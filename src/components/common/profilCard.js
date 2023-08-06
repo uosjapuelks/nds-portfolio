@@ -29,7 +29,7 @@ export const ProfilCard = (props) => {
             width: "20vw",
             height: "69vh",
             minHeight: "36.5rem",
-            minWidth: "18rem",
+            minWidth: "15rem",
             flexShrink: "0",
             borderRadius: "1.25rem",
             background: "#FFF",

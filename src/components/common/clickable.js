@@ -37,8 +37,8 @@ const DownRes = styled.a`
 const Maincard = styled.div`
   margin: .4rem 5vw 1.5vw 2vw;
   //width: 60vw;
-  height: 77vh;
-  min-height: 44.7rem;
+  height: auto;
+  //min-height: 50rem;
   //min-width: 25rem;
   border-radius: 1.25rem;
   background: #FFF;
@@ -53,7 +53,7 @@ export const VisitGit = ({project}) => {
                                style={{padding: "0.625rem 1.25rem"}}
                                href={project.git} target="_blank"
                                style={{textDecoration:"none"}}>
-            Click to visit the Github Repo</DownRes>
+            Github Repo</DownRes>
             <br/><br/><br/>
         </>
 
@@ -63,12 +63,11 @@ export const VisitGit = ({project}) => {
 export const CheckReport = (props) => {
     return (
         <>
-            <br/><br/><DownRes className="gitlink"
-                               style={{padding: "0.625rem 1.25rem"}}
+            <DownRes className="gitlink"
+                               // style={{padding: "0.625rem 1.25rem"}}
                                href={props.src} target="_blank"
                                style={{textDecoration:"none"}}>
             {props.children}</DownRes>
-            <br/><br/><br/>
         </>
 
     )
