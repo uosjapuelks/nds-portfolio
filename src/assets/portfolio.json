@@ -1,11 +1,11 @@
 {
   "introlist1" : [
-    {"project" :  "Gesture Controlled Laser Tag", "href" : "/nds-portfolio/#/projects/capstone", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
-    {"project" :  "FPGA Mini Project", "href" : "/nds-portfolio/#/projects/minifpga", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
+    {"project" :  "Gesture Controlled Laser Tag", "href" : "/projects/capstone", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
+    {"project" :  "FPGA Mini Project", "href" : "/projects/minifpga", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
   ],
   "introlist2" : [
-    {"project" :  "CLI Application", "href" : "/nds-portfolio/#/projects/fridget", "src" :  "FridgetIntro.jpg", "color" :  "Light", "role" :  "Software Engineer"},
-    {"project" :  "SelfDriving / Remote Controlled Mini-Car", "href" : "/nds-portfolio/#/projects/rtoscar", "src" :  "2271Intro.png", "color" :  "Sat", "role" :  "Real-Time Operating Systems"}
+    {"project" :  "CLI Application", "href" : "/projects/fridget", "src" :  "FridgetIntro.jpg", "color" :  "Light", "role" :  "Software Engineer"},
+    {"project" :  "SelfDriving / Remote Controlled Mini-Car", "href" : "/projects/rtoscar", "src" :  "2271Intro.png", "color" :  "Sat", "role" :  "Real-Time Operating Systems"}
   ],
   "cg4002" : {
     "shortenedName" : "Gesture Laser Tag",

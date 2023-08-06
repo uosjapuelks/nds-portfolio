@@ -1,8 +1,8 @@
 {
   "name": "nds-portfolio",
   "version": "0.1.0",
-  "homepage": "https://uosjapuelks.github.io/nds-portfolio",
-  "private": true,
+  "homepage": "https://andersonleong.com/",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "hamburger-react": "^2.5.0",
     "react-social-icons": "^5.15.0",
     "styled-components": "^6.0.5"
   }
