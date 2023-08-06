@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28918768.css",
-    "main.js": "/static/js/main.47d82555.js",
+    "main.js": "/static/js/main.ad98343e.js",
     "static/js/787.c2303322.chunk.js": "/static/js/787.c2303322.chunk.js",
     "static/media/EE2026Report.pdf": "/static/media/EE2026Report.100808f98fb9fab5f999.pdf",
     "static/media/fridgetSamplePic.png": "/static/media/fridgetSamplePic.2801546771689b14aad8.png",
@@ -14,11 +14,11 @@
     "static/media/icon-park-outline_degree-hat.svg": "/static/media/icon-park-outline_degree-hat.1d17aca17573c8f10a6ca588c20893c0.svg",
     "index.html": "/index.html",
     "main.28918768.css.map": "/static/css/main.28918768.css.map",
-    "main.47d82555.js.map": "/static/js/main.47d82555.js.map",
+    "main.ad98343e.js.map": "/static/js/main.ad98343e.js.map",
     "787.c2303322.chunk.js.map": "/static/js/787.c2303322.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28918768.css",
-    "static/js/main.47d82555.js"
+    "static/js/main.ad98343e.js"
   ]
 }
