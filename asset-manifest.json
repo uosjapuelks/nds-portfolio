@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28918768.css",
+    "main.js": "/static/js/main.47d82555.js",
+    "static/js/787.c2303322.chunk.js": "/static/js/787.c2303322.chunk.js",
+    "static/media/EE2026Report.pdf": "/static/media/EE2026Report.100808f98fb9fab5f999.pdf",
+    "static/media/fridgetSamplePic.png": "/static/media/fridgetSamplePic.2801546771689b14aad8.png",
+    "static/media/2271Intro.png": "/static/media/2271Intro.15efded222c4456586df.png",
+    "static/media/CG4002Group.png": "/static/media/CG4002Group.faa14828864de95993ae.png",
+    "static/media/hollandfieldssolo.jpeg": "/static/media/hollandfieldssolo.5fd69b8eb846c5c4994d.jpeg",
+    "static/media/BoardIntro.jpg": "/static/media/BoardIntro.e0605728f96c7bfaf2e0.jpg",
+    "static/media/randomLogo.png": "/static/media/randomLogo.97f47d3cb8186840886c.png",
+    "static/media/humbleicons_briefcase.svg": "/static/media/humbleicons_briefcase.e7eaa02efa06266df3f5263fd749c3ca.svg",
+    "static/media/icon-park-outline_degree-hat.svg": "/static/media/icon-park-outline_degree-hat.1d17aca17573c8f10a6ca588c20893c0.svg",
+    "index.html": "/index.html",
+    "main.28918768.css.map": "/static/css/main.28918768.css.map",
+    "main.47d82555.js.map": "/static/js/main.47d82555.js.map",
+    "787.c2303322.chunk.js.map": "/static/js/787.c2303322.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28918768.css",
+    "static/js/main.47d82555.js"
+  ]
+}
