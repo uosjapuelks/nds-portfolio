@@ -19,13 +19,13 @@ function App() {
     let mobile = width <= 750;
 
     return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
           <Route path={"/"} exact element={<ChosenLayout><LandingPage/></ChosenLayout>}>
               <Route path="" element={<About/>}/>
               <Route path="resume" element={<Resume mobile={mobile}/>} />
               <Route path={"projects"} element={<Portfolio/>}>
-                  <Route path="" element={<PortfolioMain/>} />
+                  <Route index={true} element={<PortfolioMain/>} />
                   <Route path="capstone" element={<Capstone/>} />
                   <Route path="fridget" element={<Fridget/>} />
                   <Route path="minifpga" element={<Minifpga/>} />
@@ -34,7 +34,7 @@ function App() {
               <Route path="contact" element={<MobileProfileCard/>}/>
           </Route>
       </Routes>
-    </BrowserRouter basename={process.env.PUBLIC_URL}>
+    </HashRouter >
   );
 }
 export default App;
