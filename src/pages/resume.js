@@ -12,7 +12,8 @@ export const Resume = (props) => {
         <ContentCard title={"Resume"}>
         <div className="res-mainbox" style={{width:"100%"}}>
             <Layout/>
-            <div style={{height:"20vh", display:"normal", overflowX:"auto", width:"100%"}}>
+
+            <div style={{height:"18vh", display:"normal", overflowX:"auto", width:"100%"}}>
                 <ResumeTitle src={tech}> Tech Stack </ResumeTitle>
                 <div className="res-sidescroll">
                     {resData.techstack.map((techstack) => {
@@ -27,7 +28,7 @@ export const Resume = (props) => {
 
 const DesktopResume = (props) => {
     return (
-        <div style={{height:"55vh", display:"flex", justifyContent:"flex-start", overflowY:"auto"}}>
+        <div style={{height:"45vh", display:"flex", justifyContent:"flex-start", overflowY:"auto"}}>
             <div className="res-mainbox" style={{width:"50%", height:"100%"}}>
                 <ResumeTitle src={gradHat} > Education </ResumeTitle>
                 <div className="res-scroll">

@@ -36,15 +36,15 @@ const DownRes = styled.a`
 `
 
 const Maincard = styled.div`
-  margin: .4rem 5vw 1.5vw 2vw;
-  //width: 60vw;
+  margin: .4rem 5vw 0 2vw;
   height: auto;
-  //min-height: 50rem;
-  //min-width: 25rem;
+  max-height: 80vh;
   border-radius: 1.25rem;
   background: #FFF;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
   padding: 0 3.75vw;
+  box-sizing: content-box;  
+  overflow-y: auto; 
 `
 
 export const VisitGit = ({project}) => {
