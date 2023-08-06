@@ -42,9 +42,9 @@ const Maincard = styled.div`
   border-radius: 1.25rem;
   background: #FFF;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
-  padding: 0 3.75vw;
-  box-sizing: content-box;  
-  overflow-y: auto; 
+  padding: 0 1.75rem;
+  box-sizing: content-box;
+  overflow-y: auto;
 `
 
 export const VisitGit = ({project}) => {
