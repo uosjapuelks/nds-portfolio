@@ -19,7 +19,7 @@ function App() {
     let mobile = width <= 750;
 
     return (
-    <Router>
+    <BrowserRouter>
       <Routes>
           <Route path={"/"} exact element={<ChosenLayout><LandingPage/></ChosenLayout>}>
               <Route path="" element={<About/>}/>
@@ -34,7 +34,7 @@ function App() {
               <Route path="contact" element={<MobileProfileCard/>}/>
           </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 export default App;
