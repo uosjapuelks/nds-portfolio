@@ -22,12 +22,6 @@ export const PortfolioMain = (props) => {
                                             color={items.color}
                                             role={items.role}> {items.project} </DynamicCard>
                     })}
-                    {portfoliodata.introlist1.map((items) => {
-                        return <DynamicCard href={items.href}
-                                            src={require(`../images/portfolio/covers/${items.src}`)}
-                                            color={items.color}
-                                            role={items.role}> {items.project} </DynamicCard>
-                    })}
                 </div>
                 <div className="portfolio-container" >
                 {portfoliodata.introlist2.map((items) => {

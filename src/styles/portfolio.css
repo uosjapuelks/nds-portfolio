@@ -2,12 +2,15 @@
     width: 47.5%;
     max-height: 50vh;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .portfolio-whole {
     height:80%;
     overflow-y: auto;
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 4rem;
+    justify-content: space-between;
+    padding-bottom: 2rem;
 }

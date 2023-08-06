@@ -11,7 +11,7 @@ export const DynamicCard = (props) => {
                 style={{
                     width: "100%",
                     minWidth: "6.875rem",
-                    margin: "2rem 0",
+                    // margin: "0 0 2rem 0",
                 }}>
                 <div className="centerdiv">
                     <img src={props.src} className="portfolio-click shortPic"></img>
