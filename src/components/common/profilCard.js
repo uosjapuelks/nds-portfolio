@@ -88,8 +88,9 @@ export const ProfilCard = (props) => {
 }
 
 const MobileProfilePic = (props) => {
+    const viz = props.mobile ? "-100%" : "0%";
     return (
-        <div style={{display:"flex", justifyContent:"center",}}>
+        <div style={{display:"flex", justifyContent:"center", marginTop: {viz},}}>
             <img
                 src={profilePicture}
                 style={{

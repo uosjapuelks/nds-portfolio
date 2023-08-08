@@ -2,7 +2,6 @@ import "../styles/about.css";
 import aboutData from "../assets/about.json";
 import {ContentCard} from "../components/layout/info";
 
-//TODO: About - Areas of Interest
 export const About = (props) => {
     return (
         <ContentCard title={"About Me"}>

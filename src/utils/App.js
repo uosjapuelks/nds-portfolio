@@ -31,7 +31,7 @@ function App() {
                   <Route path="minifpga" element={<Minifpga/>} />
                   <Route path="rtoscar" element={<Rtoscar/>} />
               </Route>
-              <Route path="contact" element={<MobileProfileCard/>}/>
+              <Route path="contact" element={<MobileProfileCard mobile={mobile}/>}/>
           </Route>
       </Routes>
     </HashRouter >

@@ -1,6 +1,6 @@
 .portfolio-container {
     width: 47.5%;
-    max-height: 50vh;
+    max-height: 90vh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
