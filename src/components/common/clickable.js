@@ -36,7 +36,7 @@ const DownRes = styled.a`
 `
 
 const Maincard = styled.div`
-  margin: .4rem 5vw 0 2vw;
+  margin: .4rem 2rem 0 2rem;
   height: auto;
   max-height: 80vh;
   border-radius: 1.25rem;
