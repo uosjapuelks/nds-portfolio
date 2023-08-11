@@ -4,6 +4,7 @@
     {"project" :  "FPGA Mini Project", "href" : "#/projects/minifpga", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
   ],
   "introlist2" : [
+    {"project" :  "Courses Taken", "href" : "#/projects/courses", "src" :  "coursesIntro.jpg", "color" :  "Alt", "role" :  "University / Online"},
     {"project" :  "CLI Application", "href" : "#/projects/fridget", "src" :  "FridgetIntro.jpg", "color" :  "Light", "role" :  "Software Engineer"},
     {"project" :  "SelfDriving / Remote Controlled Mini-Car", "href" : "#/projects/rtoscar", "src" :  "2271Intro.png", "color" :  "Sat", "role" :  "Real-Time Operating Systems"}
   ],
@@ -43,6 +44,13 @@
     "image" : "/covers/BoardIntro.jpg",
     "git" : "https://github.com/uosjapuelks/digital-design",
     "report" : "EE2026Report.pdf",
+    "DG" : "https://uosjapuelks.github.io/tp/DeveloperGuide.html"
+  },
+  "courses" : {
+    "shortenedName" : "Courses",
+    "name" : "Courses Taken\n",
+    "image" : "/covers/coursesIntro.jpg",
+    "git" : "https://github.com/uosjapuelks/digital-design",
     "DG" : "https://uosjapuelks.github.io/tp/DeveloperGuide.html"
   }
 }

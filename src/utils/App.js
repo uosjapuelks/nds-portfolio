@@ -12,6 +12,7 @@ import {Fridget} from "../pages/portfolio/fridget";
 import {Minifpga} from "../pages/portfolio/fpga2026";
 import {MobileProfileCard} from "../components/common/profilCard";
 import {LayoutDesktop, LayoutMobile} from "../components/layout";
+import {Courses} from "../pages/portfolio/courses";
 
 function App() {
     const { height, width } = useWindowDimensions();
@@ -30,6 +31,7 @@ function App() {
                   <Route path="fridget" element={<Fridget/>} />
                   <Route path="minifpga" element={<Minifpga/>} />
                   <Route path="rtoscar" element={<Rtoscar/>} />
+                  <Route path="courses" element={<Courses/>} />
               </Route>
               <Route path="contact" element={<MobileProfileCard mobile={mobile}/>}/>
           </Route>

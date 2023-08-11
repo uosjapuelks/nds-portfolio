@@ -1,16 +1,16 @@
 .portfolio-container {
     width: 47.5%;
-    max-height: 90vh;
+    max-height: 65vh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .portfolio-whole {
     height:80%;
     overflow-y: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 2rem;
 }

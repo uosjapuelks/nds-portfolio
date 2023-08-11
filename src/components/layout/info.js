@@ -9,7 +9,7 @@ import {MainLine} from "../common/icons";
 export const ContentCard = (props) => {
     return (
         <Maincard>
-            <div style={{display:"flex", marginBottom:"1rem",}}>
+            <div style={{display:"flex", marginBottom:"1rem"}}>
                 <div className="title">
                     {props.title}
                 </div>

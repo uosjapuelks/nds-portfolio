@@ -38,11 +38,11 @@ const DownRes = styled.a`
 const Maincard = styled.div`
   margin: .4rem 2rem 0 2rem;
   height: auto;
-  max-height: 80vh;
+  max-height: 75vh;
   border-radius: 1.25rem;
   background: #FFF;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
-  padding: 0 1.75rem;
+  padding: 0 1.75rem 3rem 1.75rem;
   box-sizing: content-box;
   overflow-y: auto;
 `

@@ -12,11 +12,6 @@ export const Rtoscar = (props) => {
                 {project.youtube ? <YoutubeEmbed embedId={project.youtube}/> : null}
 
                 <VisitGit project={project}/>
-                {/*<br/><br/><DownRes className="gitlink"*/}
-                {/*   style={{padding: "0.625rem 1.25rem"}}*/}
-                {/*   href={project.git} target="_blank">*/}
-                {/*    Click to visit the Github Repo</DownRes>*/}
-                {/*<br/><br/><br/>*/}
                 <div className="res-role">{project.name}</div>
                 <div className="res-company">
                     This is an ESP32 Wi-Fi Microcontroller is pre-programmed to connect to a hotspot. An app can then be used to establish connection with the robot and start giving intrsuctions to it.

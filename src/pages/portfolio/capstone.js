@@ -7,7 +7,7 @@ export const Capstone = (props) => {
     const project = data.cg4002;
     return (
         <ContentCard title={project.shortenedName}>
-            <div style={{overflowY:"auto",height:"80%",}}>
+            <div style={{overflowY:"auto",height:"80%", paddingBottom:"2rem"}}>
             {project.youtube ? <YoutubeEmbed embedId={project.youtube}/> : null}
 
             <VisitGit project={project}/>
@@ -23,12 +23,12 @@ export const Capstone = (props) => {
                     <br/><br/>
                 </div>
 
-                <CheckReport src={project.report}> See Full Report </CheckReport>
             <a>Link to additional component involved here: <br/></a>
             <a href={project.additionalLink}
                style={{textDecoration:"none"}} target="_blank">
                 External Communication Component (inclusive of Game Engine Component)</a>
             </div>
+            <CheckReport src={project.report}> See Full Report </CheckReport>
         </ContentCard>
     )
 }

@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .stack {
+  height: 2.4rem;
   box-sizing: border-box;
   padding: 0.4rem .6rem;
   justify-content: center;
