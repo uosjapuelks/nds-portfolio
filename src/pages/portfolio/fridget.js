@@ -19,13 +19,12 @@ export const Fridget = (props) => {
                     The application was made using Java.
                     <br/><br/>
                 </div>
-                <div className="res-role">Checkout the Following Sites: </div>
-                {/*<div style={{display:"flex", justifyContent:"space-between", width:"100%", background:"red"}}>*/}
-                <div className="sidescroll">
-                    <CheckReport src={project.site}> Main Site </CheckReport>
-                    <CheckReport src={project.UG}> User Guide </CheckReport>
-                    <CheckReport src={project.DG}> Developer Guide </CheckReport>
-                </div>
+            </div>
+            <div className="res-role"><br/> Checkout the Following Sites: </div>
+            <div className="sidescroll">
+                <CheckReport src={project.site}> Main Site </CheckReport>
+                <CheckReport src={project.UG}> User Guide </CheckReport>
+                <CheckReport src={project.DG}> Developer Guide </CheckReport>
             </div>
         </ContentCard>
     )

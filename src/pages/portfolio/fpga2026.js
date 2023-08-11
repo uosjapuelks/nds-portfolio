@@ -17,9 +17,8 @@ export const Minifpga = (props) => {
                     The Board can then play 3 different modes and respond to the user’s inputs to the buttons and microphone that is attached to the board.
                     <br/><br/>
                 </div>
-
-                <CheckReport src={require(`../../assets/${project.report}`)}> See Full Report </CheckReport>
             </div>
+            <CheckReport src={require(`../../assets/${project.report}`)}> See Full Report </CheckReport>
         </ContentCard>
     )
 }
