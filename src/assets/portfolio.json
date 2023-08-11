@@ -1,11 +1,11 @@
 {
   "introlist1" : [
-    {"project" :  "Gesture Controlled Laser Tag", "href" : "#/projects/capstone", "src" :  "CG4002Group.png", "color" :  "DeepSat", "role" :  "Artificial Intelligence"},
+    {"project" :  "Gesture Controlled Laser Tag", "href" : "#/projects/capstone", "src" :  "CG4002Group.png", "color" :  "Alt", "role" :  "Artificial Intelligence"},
+    {"project" :  "CLI Application", "href" : "#/projects/fridget", "src" :  "FridgetIntro.jpg", "color" :  "DeepSat", "role" :  "Software Engineer"},
     {"project" :  "FPGA Mini Project", "href" : "#/projects/minifpga", "src" :  "BoardIntro.jpg", "color" :  "LightSat", "role" :  "Digital Design"}
   ],
   "introlist2" : [
-    {"project" :  "Courses Taken", "href" : "#/projects/courses", "src" :  "coursesIntro.jpg", "color" :  "Alt", "role" :  "University / Online"},
-    {"project" :  "CLI Application", "href" : "#/projects/fridget", "src" :  "FridgetIntro.jpg", "color" :  "Light", "role" :  "Software Engineer"},
+    {"project" :  "Courses Taken", "href" : "#/projects/courses", "src" :  "coursesIntro.jpg", "color" :  "Light", "role" :  "University / Online"},
     {"project" :  "SelfDriving / Remote Controlled Mini-Car", "href" : "#/projects/rtoscar", "src" :  "2271Intro.png", "color" :  "Sat", "role" :  "Real-Time Operating Systems"}
   ],
   "cg4002" : {
@@ -47,9 +47,31 @@
     "DG" : "https://uosjapuelks.github.io/tp/DeveloperGuide.html"
   },
   "courses" : {
-    "shortenedName" : "Courses",
-    "name" : "Courses Taken\n",
+    "shortenedName" : "Courses Taken",
+    "name" : "Courses without dedicated projects\n",
     "image" : "/covers/coursesIntro.jpg",
+    "module" : [
+      {"courseName" :  "Introduction to Information Security",
+        "briefContent" : "Broad overview on information security. Ciphers (Classic, Historic, Modern) and cryptosystems. Various forms of attacks and practice of secure programming.",
+        "examples" : ["Capture the Flag assignments"],
+        "techStack" :  ["Wireshark", "Java", "Python"]},
+      {"courseName" :  "Parallel Computing",
+        "briefContent" :  "Parallel computation models and parallelism, parallel architectures and algorithm design and programming",
+        "examples" : ["shared-memory architectures", "distributed-memory", "grid, cloud, GPGPU models"],
+        "techStack" :  ["C++", "MPI", "OpenMP", "CUDA", "Remote workspace"]},
+      {"courseName" :  "Cryptography Theory and Practice ",
+        "briefContent" :  "Cryptographic Theories, Principles and Techniques used to achieve data security. Analyse and construct methods and reflect limitations.",
+        "examples" : ["Vignere Cipher (Encoding and Decoding)"],
+        "techStack" :  ["Python"]},
+      {"courseName" :  "Parallel and Distributed ALgorithms",
+        "briefContent" :  "Dived deeper into multicore programming. Specific use of MPI (Message Passing Interface) and relevant algorithms and analysis.",
+        "examples" : ["Canons Algorithm for Matrix Multiplication", "Parallel Quicksort (HyperQuickSort)", "Shear Sort"],
+        "techStack" :  ["C", "MPI", "Remote workspace"]},
+      {"courseName" :  "Internet of Things",
+        "briefContent" :  "Design options in different layers of TCP/IP protocol stack. Standard troubleshooting communication paths. Identification of common security issues in network protocols and applications",
+        "examples" : ["Network Simulations (with RPL and CoAP) during lab with Cooja and Copper"],
+        "techStack" :  ["Wireshark", "VMware", "Java"]}
+    ],
     "git" : "https://github.com/uosjapuelks/digital-design",
     "DG" : "https://uosjapuelks.github.io/tp/DeveloperGuide.html"
   }

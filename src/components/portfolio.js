@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/minicard.css";
-import "../styles/utils.css"
+import "../styles/utils.css";
 
 //TODO: Portfolio component details
 export const DynamicCard = (props) => {

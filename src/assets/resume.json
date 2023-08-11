@@ -16,7 +16,7 @@
       "elab" :  "IronPython, Python, Machine Learning, TensorFlow"}
   ],
   "techstack" : [
-    "C++", "C", "Python", "Tensorflow", "Pandas", "Java",
+    "C++", "C", "Python", "Tensorflow", "Pandas", "Java", "Message Passing Interface (MPI)",
     "Git", "SQL", "Verilog", "React.js", "HTML", "CSS",
     "Javascript"
   ]
