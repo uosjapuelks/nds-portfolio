@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4dc0c57.css",
-    "main.js": "/static/js/main.928ff88a.js",
+    "main.css": "/static/css/main.a3805ee4.css",
+    "main.js": "/static/js/main.df786371.js",
     "static/js/787.c2303322.chunk.js": "/static/js/787.c2303322.chunk.js",
     "static/media/EE2026Report.pdf": "/static/media/EE2026Report.100808f98fb9fab5f999.pdf",
     "static/media/Group11_Report_1.pdf": "/static/media/Group11_Report_1.39423113308addc77b65.pdf",
     "static/media/Lab_2-Instructions-Group11.pdf": "/static/media/Lab_2-Instructions-Group11.0d1c4f8ef6abd00dbdc0.pdf",
+    "static/media/coursesIntro.jpg": "/static/media/coursesIntro.4a1483bccdf4e4cb7fbd.jpg",
     "static/media/fridgetSamplePic.png": "/static/media/fridgetSamplePic.2801546771689b14aad8.png",
     "static/media/2271Intro.png": "/static/media/2271Intro.15efded222c4456586df.png",
     "static/media/CG4002Group.png": "/static/media/CG4002Group.faa14828864de95993ae.png",
@@ -23,12 +24,12 @@
     "static/media/humbleicons_briefcase.svg": "/static/media/humbleicons_briefcase.e7eaa02efa06266df3f5263fd749c3ca.svg",
     "static/media/icon-park-outline_degree-hat.svg": "/static/media/icon-park-outline_degree-hat.1d17aca17573c8f10a6ca588c20893c0.svg",
     "index.html": "/index.html",
-    "main.f4dc0c57.css.map": "/static/css/main.f4dc0c57.css.map",
-    "main.928ff88a.js.map": "/static/js/main.928ff88a.js.map",
+    "main.a3805ee4.css.map": "/static/css/main.a3805ee4.css.map",
+    "main.df786371.js.map": "/static/js/main.df786371.js.map",
     "787.c2303322.chunk.js.map": "/static/js/787.c2303322.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4dc0c57.css",
-    "static/js/main.928ff88a.js"
+    "static/css/main.a3805ee4.css",
+    "static/js/main.df786371.js"
   ]
 }
