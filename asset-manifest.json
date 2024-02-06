@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b5f2ef76.css",
-    "main.js": "/static/js/main.61cd1bf0.js",
+    "main.js": "/static/js/main.dc38812b.js",
     "static/js/592.5e69e59d.chunk.js": "/static/js/592.5e69e59d.chunk.js",
     "static/media/EE2026Report.pdf": "/static/media/EE2026Report.100808f98fb9fab5f999.pdf",
     "static/media/Group11_Report_1.pdf": "/static/media/Group11_Report_1.39423113308addc77b65.pdf",
@@ -25,11 +25,11 @@
     "static/media/icon-park-outline_degree-hat.svg": "/static/media/icon-park-outline_degree-hat.1d17aca17573c8f10a6ca588c20893c0.svg",
     "index.html": "/index.html",
     "main.b5f2ef76.css.map": "/static/css/main.b5f2ef76.css.map",
-    "main.61cd1bf0.js.map": "/static/js/main.61cd1bf0.js.map",
+    "main.dc38812b.js.map": "/static/js/main.dc38812b.js.map",
     "592.5e69e59d.chunk.js.map": "/static/js/592.5e69e59d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5f2ef76.css",
-    "static/js/main.61cd1bf0.js"
+    "static/js/main.dc38812b.js"
   ]
 }
