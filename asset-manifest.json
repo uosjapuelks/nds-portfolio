@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b5f2ef76.css",
-    "main.js": "/static/js/main.dc38812b.js",
+    "main.js": "/static/js/main.87b4ba74.js",
     "static/js/592.5e69e59d.chunk.js": "/static/js/592.5e69e59d.chunk.js",
     "static/media/EE2026Report.pdf": "/static/media/EE2026Report.100808f98fb9fab5f999.pdf",
     "static/media/Group11_Report_1.pdf": "/static/media/Group11_Report_1.39423113308addc77b65.pdf",
@@ -16,20 +16,21 @@
     "static/media/2023-08-07 17.44.20.jpg": "/static/media/2023-08-07 17.44.20.d70335872b1be8db232c.jpg",
     "static/media/2023-08-07 17.43.42.jpg": "/static/media/2023-08-07 17.43.42.1bd00e958d5b9fc9acd1.jpg",
     "static/media/coursesCover.jpg": "/static/media/coursesCover.c9c1954bf14c3accdb67.jpg",
-    "static/media/AndersonLeong_Resume.pdf": "/static/media/AndersonLeong_Resume.f615955af4658277938b.pdf",
+    "static/media/AndersonLeong_Resume.pdf": "/static/media/AndersonLeong_Resume.0e4107a00a4228299dc2.pdf",
     "static/media/uuIOTCover.jpg": "/static/media/uuIOTCover.7c19968b156c7acf01c1.jpg",
     "static/media/hollandfieldssolo.jpeg": "/static/media/hollandfieldssolo.5fd69b8eb846c5c4994d.jpeg",
     "static/media/BoardIntro.jpg": "/static/media/BoardIntro.e0605728f96c7bfaf2e0.jpg",
+    "static/media/EP_Eligibility_Letter.pdf": "/static/media/EP_Eligibility_Letter.8599979d3c37f7c752ba.pdf",
     "static/media/randomLogo.png": "/static/media/randomLogo.97f47d3cb8186840886c.png",
     "static/media/humbleicons_briefcase.svg": "/static/media/humbleicons_briefcase.e7eaa02efa06266df3f5263fd749c3ca.svg",
     "static/media/icon-park-outline_degree-hat.svg": "/static/media/icon-park-outline_degree-hat.1d17aca17573c8f10a6ca588c20893c0.svg",
     "index.html": "/index.html",
     "main.b5f2ef76.css.map": "/static/css/main.b5f2ef76.css.map",
-    "main.dc38812b.js.map": "/static/js/main.dc38812b.js.map",
+    "main.87b4ba74.js.map": "/static/js/main.87b4ba74.js.map",
     "592.5e69e59d.chunk.js.map": "/static/js/592.5e69e59d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5f2ef76.css",
-    "static/js/main.dc38812b.js"
+    "static/js/main.87b4ba74.js"
   ]
 }
