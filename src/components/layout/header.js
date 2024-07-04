@@ -6,7 +6,7 @@ import {MobileNavCard} from "./navcard";
 
 export const Header = (props) => {
     const { height, width } = useWindowDimensions();
-    const logoText = "ee";
+    const logoText = "ee?";
     return (
         <div
             style={{

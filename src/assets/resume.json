@@ -12,12 +12,14 @@
       "misc" : "Cryptology, Parallel Distributed Systems, Internet of Things"}
   ],
   "experience" : [
+    {"company" : "dConstruct", "role" : "Assistant Software Engineer", "date" :  "Jan 2024 - Jun 2024",
+      "elab" :  "Full Stack, C++, Typescript, SolidJS, Emscripten"},
     {"company" : "NXP Semiconductors", "role" : "Product Engineer", "date" :  "May 2022 - Dec 2022",
       "elab" :  "IronPython, Python, Machine Learning, TensorFlow"}
   ],
   "techstack" : [
     "C++", "C", "Python", "Tensorflow", "Pandas", "Java", "Message Passing Interface (MPI)",
-    "Git", "SQL", "Verilog", "React.js", "HTML", "CSS",
-    "Javascript"
+    "Git", "SQL", "Verilog", "React.js", "SolidJS", "HTML", "CSS", "Emscripten",
+    "Javascript", "Typescript"
   ]
 }
