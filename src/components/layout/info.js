@@ -4,7 +4,6 @@ import {MainLine} from "../common/icons";
 
 //TODO: Add more portfolio if possible
 //TODO: Fix left portfolio contents arrangements (desktop n mobile)
-//TODO: shrink mobile profile
 
 export const ContentCard = (props) => {
     return (

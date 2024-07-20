@@ -2,6 +2,7 @@ import "../styles/about.css";
 import aboutData from "../assets/about.json";
 import {ContentCard} from "../components/layout/info";
 
+//TODO: shrink mobile profile
 export const About = (props) => {
     return (
         <ContentCard title={"About Me"}>
@@ -16,10 +17,10 @@ export const About = (props) => {
                 I believe my experiences and skills can be of value in projects, and the projects pushes me towards improvements which I seek.
             </div>
 
-            <div className="about-sectioning" style={{marginBottom:"1.2rem"}}>
+            <div className="about-sectioning" style={{marginBottom:"0rem"}}>
                 Areas of Interest
             </div>
-            <div className="about-flex">
+            <div className="res-sidescroll" style={{marginTop:"1rem"}}>
             {aboutData.interests.map((interests) => {
                 return <div className="stack">{interests}</div>
             })}

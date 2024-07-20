@@ -55,7 +55,7 @@ export const ProfilCard = (props) => {
                     textAlign: "center",
                 }}
             >
-                <p style={{margin:0}}>Y4 Computer Engineering</p>
+                <p style={{margin:0}}>Computer Engineering</p>
                 <p style={{marginTop:-15, marginBottom:0}}>National University of Singapore</p>
             </h2>
             <div style={{
